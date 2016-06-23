@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><cave name="Untitled-1" filePath="teste.xml" ><bases>
+<base><name>0</name><isEntrace>1</isEntrace><down>0</down><up>1</up><left>1</left><right>2</right><coments></coments></base>
+<base><name>1</name><isEntrace>0</isEntrace><down>0</down><up>1</up><left>2</left><right>2</right><prevBaseName>0</prevBaseName><inclination>45</inclination><distance>6</distance><azymuti>20</azymuti><coments></coments></base>
+<base><name>2</name><isEntrace>0</isEntrace><down>0</down><up>1</up><left>0,5</left><right>1</right><prevBaseName>1</prevBaseName><inclination>45</inclination><distance>7</distance><azymuti>45</azymuti><coments></coments></base>
+<base><name>4</name><isEntrace>0</isEntrace><down>0</down><up>1</up><left>1,5</left><right>1</right><prevBaseName>1</prevBaseName><inclination>45</inclination><distance>3</distance><azymuti>90</azymuti><coments></coments></base>
+<base><name>3</name><isEntrace>0</isEntrace><down>0</down><up>1</up><left>1,5</left><right>1</right><prevBaseName>2</prevBaseName><inclination>45</inclination><distance>3</distance><azymuti>350</azymuti><coments></coments></base>
+<base><name>5</name><isEntrace>0</isEntrace><down>0</down><up>1</up><left>1,5</left><right>1</right><prevBaseName>2</prevBaseName><inclination>45</inclination><distance>3</distance><azymuti>300</azymuti><coments></coments></base>
+</bases></cave>

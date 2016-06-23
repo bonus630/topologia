@@ -1,0 +1,17 @@
+﻿<Window x:Class="br.corp.bonus630.topologia.DataConfigWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Configurações do Editor de Dados" Height="300" Width="389" ResizeMode="NoResize">
+    <Grid>
+        <Grid>
+            <Button Content="↑" HorizontalAlignment="Left" Margin="185,38,0,0" VerticalAlignment="Top" Width="17" Name="btn_up" Click="btn_up_Click"/>
+            <Button Content="↓" HorizontalAlignment="Left" Margin="185,63,0,0" VerticalAlignment="Top" Width="17" Name="btn_down" Click="btn_down_Click"/>
+            <StackPanel HorizontalAlignment="Left" Height="190" Margin="10,38,0,0" VerticalAlignment="Top" Width="170" Name="stack_labels"/>
+            <Label Content="Ordem dos Campos de Dados" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.395,0.577"/>
+
+        </Grid>
+        <Button Content="Restaurar Padrão" HorizontalAlignment="Left" Margin="277,239,0,0" VerticalAlignment="Top" Width="94" Name="btn_default" Click="btn_default_Click"/>
+        <Button Content="Salvar" HorizontalAlignment="Left" Margin="199,239,0,0" VerticalAlignment="Top" Width="73" Name="btn_save" Click="btn_save_Click"/>
+
+    </Grid>
+</Window>

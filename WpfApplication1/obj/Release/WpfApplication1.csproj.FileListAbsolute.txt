@@ -1,0 +1,11 @@
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\bin\Release\topologia.dll
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\bin\Release\topologia.pdb
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Reginaldo\Documents\Area Trabalho\Projects\topologia\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache

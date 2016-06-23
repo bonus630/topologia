@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<cave name="nome" filePath="C:" >
+  <bases>
+    <base>
+      <name></name>
+      <isEntrace></isEntrace>
+      <down></down>
+      <up></up>
+      <left></left>
+      <right></right>
+      <prevBaseName></prevBaseName>
+      <inclination></inclination>
+      <distance></distance>
+      <azymuti></azymuti>
+      <coments></coments>
+    </base>
+  </bases>
+</cave>
