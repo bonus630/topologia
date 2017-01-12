@@ -70,19 +70,9 @@ namespace br.corp.bonus630.topologia
                     fs = new FileStream(this.cave.FilePath, FileMode.OpenOrCreate);
            
             
-            //    fs.WriteByte(new byte[0]);
+         
             StreamWriter sw = new StreamWriter(fs,Encoding.UTF8);
-    //        sw.WriteLine(String.Format("<?xml version=\"1.0\" encoding=\"utf-8\" ?><cave name=\"{0}\" filePath=\"{1}\" ><bases>",this.cave.CaveName,this.cave.FilePath));
-    //        for(int i = 0; i<this.cave.BaseList.Count;i++)
-    //        {
-    //            if(this.cave.BaseList[i].IsStart)
-    //                sw.WriteLine(String.Format("<base><name>{0}</name><isEntrace>{1}</isEntrace><down>{2}</down><up>{3}</up><left>{4}</left><right>{5}</right><coments>{6}</coments></base>", this.cave.BaseList[i].BaseName,
-    //1, this.cave.BaseList[i].BottomSide, this.cave.BaseList[i].TopSide, this.cave.BaseList[i].LeftSide, this.cave.BaseList[i].RightSide, this.cave.BaseList[i].Comments));
-    //            else
-    //                sw.WriteLine(String.Format("<base><name>{0}</name><isEntrace>{1}</isEntrace><down>{2}</down><up>{3}</up><left>{4}</left><right>{5}</right><prevBaseName>{6}</prevBaseName><inclination>{7}</inclination><distance>{8}</distance><azymuti>{9}</azymuti><coments>{10}</coments></base>",this.cave.BaseList[i].BaseName,
-    //                0, this.cave.BaseList[i].BottomSide, this.cave.BaseList[i].TopSide, this.cave.BaseList[i].LeftSide,this.cave.BaseList[i].RightSide,this.cave.BaseList[i].RefBase.BaseName,this.cave.BaseList[i].Incrination,this.cave.BaseList[i].Distance,this.cave.BaseList[i].Azymuti,this.cave.BaseList[i].Comments));
-    //        }
-    //        sw.WriteLine("</bases></cave>");
+
             string file = "";
                    file = String.Format("<?xml version=\"1.0\" encoding=\"utf-8\" ?><cave name=\"{0}\" date=\"{1}\" ><bases>",this.cave.CaveName,this.cave.DateTopo.Ticks);
             for(int i = 0; i<this.cave.BaseList.Count;i++)
@@ -96,8 +86,7 @@ namespace br.corp.bonus630.topologia
             }
             file+="</bases></cave>";
             sw.Write(this.Criptografar(file));
-            
-           // string teste = this.Descriptografar(this.Criptografar(file));
+        
             sw.Close();
             fs.Close();
             res= true;
@@ -108,10 +97,10 @@ namespace br.corp.bonus630.topologia
             }
             return res;
         }
-       // public Cave Load()
+    
         public bool Load(out Cave cave)
         {
-            //Cave cave = new Cave();
+          
             cave = new Cave();
             Microsoft.Win32.OpenFileDialog sfd = new Microsoft.Win32.OpenFileDialog();
             sfd.Filter = "Cave file|*.cav";
@@ -155,15 +144,15 @@ namespace br.corp.bonus630.topologia
                 }
                 return true;
             }
-            //return cave;
+          
             return false;
         }
-       // public List<BaseTopoItem> DataGridDataSource(Cave cave)
+      
         public ObservableCollection<BaseTopoItem> DataGridDataSource(Cave cave)
         {
             this.baseList = cave.BaseList;
             ObservableCollection<BaseTopoItem> dataGridItens = new ObservableCollection<BaseTopoItem>();
-            //List<BaseTopoItem> dataGridItens = new List<BaseTopoItem>();
+         
             for (int i = 0; i < baseList.Count;i++ )
             {
                 BaseTopoItem tempBaseTopoItem = new BaseTopoItem();
